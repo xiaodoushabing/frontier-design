@@ -79,7 +79,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="w-full max-w-md mx-auto"
         >
-          <div className="bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 p-10 shadow-2xl shadow-black/50">
+          <div className="bg-slate-950/5 backdrop-blur-xl rounded-3xl border border-white/10 p-10 shadow-2xl shadow-black/50">
             <div className="flex flex-col items-center mb-10 lg:hidden">
               <div className="w-14 h-14 bg-rose-600 rounded-2xl flex items-center justify-center shadow-xl shadow-rose-500/20 mb-4">
                 <Network className="text-white w-8 h-8" />
@@ -98,7 +98,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
                 <input
                   id="userId"
                   type="text"
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-rose-500/50 focus:border-rose-500 transition-all"
+                  className="w-full bg-slate-950/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-rose-500/50 focus:border-rose-500 transition-all"
                   placeholder="e.g. admin_user"
                   value={userId}
                   onChange={(e) => setUserId(e.target.value)}
@@ -110,7 +110,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
                 <input
                   id="password"
                   type="password"
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-rose-500/50 focus:border-rose-500 transition-all"
+                  className="w-full bg-slate-950/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-rose-500/50 focus:border-rose-500 transition-all"
                   placeholder="••••••••"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}

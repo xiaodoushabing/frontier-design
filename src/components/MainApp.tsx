@@ -23,7 +23,7 @@ export default function MainApp({ isAdmin, onLogout, favoriteIds, setFavoriteIds
   };
 
   return (
-    <div className="flex h-screen w-full bg-white overflow-hidden">
+    <div className="flex h-screen w-full bg-slate-950 text-slate-200 overflow-hidden">
       <Sidebar 
         isAdmin={isAdmin} 
         activeWorkspaceId={activeAgentId} 
@@ -32,7 +32,7 @@ export default function MainApp({ isAdmin, onLogout, favoriteIds, setFavoriteIds
         isOpen={isSidebarOpen}
         setIsOpen={setIsSidebarOpen}
       />
-      <div className="flex-1 flex flex-col min-w-0 border-l border-slate-200">
+      <div className="flex-1 flex flex-col min-w-0 border-l border-slate-800">
         <TopBar 
           activeWorkspaceId={activeAgentId} 
           onLogout={onLogout} 
